@@ -2,9 +2,9 @@ Exponential Function
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Computes the (natural exponential function)[https://en.wikipedia.org/wiki/Exponential_function].
+> Computes the [natural exponential function](https://en.wikipedia.org/wiki/Exponential_function).
 
-The (natural exponential function)[https://en.wikipedia.org/wiki/Exponential_function] is defined as
+The [natural exponential function](https://en.wikipedia.org/wiki/Exponential_function) is defined as
 
 <div class="equation" align="center" data-raw-text="f(x) = e^x" data-equation="eq:exponential_function">
 	<img src="https://cdn.rawgit.com/compute-io/exp/d41d867ca1b91c1d16519de507639a95fe6bae5c/docs/img/eqn.svg" alt="Equation for the exponential function.">
@@ -29,7 +29,7 @@ var exp = require( 'compute-exp' );
 
 #### exp( x[, opts] )
 
-Computes the (natural exponential function)[https://en.wikipedia.org/wiki/Exponential_function]. `x` may be either a [`number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), an [`array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays), or a [`matrix`](https://github.com/dstructs/matrix).
+Computes the [natural exponential function](https://en.wikipedia.org/wiki/Exponential_function). `x` may be either a [`number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), an [`array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), a [`typed array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays), or a [`matrix`](https://github.com/dstructs/matrix).
 
 ``` javascript
 var matrix = require( 'dstructs-matrix' ),
@@ -192,7 +192,7 @@ bool = ( mat === out );
 
 ## Notes
 
-*	If an element is __not__ a numeric value, the evaluated principal [square root](https://en.wikipedia.org/wiki/Square_root) is `NaN`.
+*	If an element is __not__ a numeric value, the evaluated [natural exponential function](https://en.wikipedia.org/wiki/Exponential_function) is `NaN`.
 
 	``` javascript
 	var data, out;

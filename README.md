@@ -112,7 +112,10 @@ var data = [
 ];
 
 
-var out = exp( data, 'x|1', '|' );
+var out = exp( data, {
+	'path': 'x|1',
+	'sep': '|'
+});
 /*
 	[
 		{'x':[0,1]},
@@ -262,7 +265,7 @@ var data,
 // Plain arrays...
 data = new Array( 10 );
 for ( i = 0; i < data.length; i++ ) {
-	data[ i ] = Math.round( Math.random()*1000 );
+	data[ i ] = Math.round( Math.random() * 10 );
 }
 out = exp( data );
 
@@ -293,7 +296,7 @@ out = exp( data, {
 // Typed arrays...
 data = new Int32Array( 10 );
 for ( i = 0; i < data.length; i++ ) {
-	data[ i ] = Math.random() * 100;
+	data[ i ] = Math.random() * 10;
 }
 out = exp( data );
 

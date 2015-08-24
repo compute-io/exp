@@ -13,7 +13,7 @@ var data,
 // Plain arrays...
 data = new Array( 10 );
 for ( i = 0; i < data.length; i++ ) {
-	data[ i ] = Math.round( Math.random()*10 );
+	data[ i ] = Math.round( Math.random() * 10 );
 }
 out = exp( data );
 console.log( 'Arrays: %s\n', out );
